@@ -1,0 +1,52 @@
+body{
+    margin:0px;
+    display: flex;
+    margin-top: 4rem;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+#container {
+    display: flex;
+    flex-flow: column nowrap;
+    height:700px;
+    width:700px;
+    margin-top: 30px;
+}
+
+.row {
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+    display:flex;
+    flex:1;
+    flex-flow: row nowrap;
+}
+
+.box{
+    flex:1;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    
+}
+
+
+
+#a.row {
+    border-top: 1px solid black;
+}
+
+#aaaaaaaaaaaaaaaa.row {
+    border-bottom: 1px solid black;
+}
+
+.left{
+    border-left: 1px solid black;
+}
+
+.right{
+    border-right: 1px solid black;
+}
+
+
